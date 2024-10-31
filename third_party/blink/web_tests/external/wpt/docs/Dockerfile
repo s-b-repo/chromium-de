@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM python:3.14-rc-slim
 
 # No interactive frontend during docker build
 ENV DEBIAN_FRONTEND=noninteractive \
