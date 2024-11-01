@@ -4,7 +4,7 @@
     "build": "babel --plugins transform-react-jsx js/app.jsx | uglifyjs -o build.min.js"
   },
   "dependencies": {
-    "classnames": "^2.2.5",
+    "classnames": "^2.5.1",
     "director": "^1.2.8",
     "react": "15.5.4",
     "react-dom": "15.5.4",
